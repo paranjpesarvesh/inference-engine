@@ -1,0 +1,348 @@
+{"time":"2025-11-18T23:08:27.09734593+05:30","level":"INFO","msg":"pipeline starting","text_model":"mistral:7b-instruct-q4_K_M","code_model":"deepseek-coder:6.7b","workers":2}
+{"time":"2025-11-18T23:08:27.097731003+05:30","level":"INFO","msg":"worker started","worker_id":0}
+{"time":"2025-11-18T23:08:27.097755852+05:30","level":"INFO","msg":"worker received job","worker_id":0,"problem_id":3682}
+{"time":"2025-11-18T23:08:27.097754834+05:30","level":"INFO","msg":"worker started","worker_id":1}
+{"time":"2025-11-18T23:08:27.09779248+05:30","level":"INFO","msg":"worker received job","worker_id":1,"problem_id":3673}
+{"time":"2025-11-18T23:08:27.097803281+05:30","level":"INFO","msg":"process start (with retries)","id":3673,"worker":1}
+{"time":"2025-11-18T23:08:27.097815633+05:30","level":"INFO","msg":"attempt","id":3673,"attempt":1}
+{"time":"2025-11-18T23:08:27.097827553+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3673,"worker":1}
+{"time":"2025-11-18T23:08:27.097769677+05:30","level":"INFO","msg":"process start (with retries)","id":3682,"worker":0}
+{"time":"2025-11-18T23:08:27.097875672+05:30","level":"INFO","msg":"attempt","id":3682,"attempt":1}
+{"time":"2025-11-18T23:08:27.097889577+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3682,"worker":0}
+{"time":"2025-11-18T23:10:08.527271982+05:30","level":"DEBUG","msg":"collected response","model":"mistral:7b-instruct-q4_K_M","len":1378,"preview":"```json\n{\n    \"description\": \"Given a list of sessions and their start and end times, find all the zombie sessions where the last session ends before the next one starts.\",\n    \"approaches\": [\n       ..."}
+{"time":"2025-11-18T23:14:15.223117869+05:30","level":"DEBUG","msg":"collected response","model":"mistral:7b-instruct-q4_K_M","len":1457,"preview":"```json\n{\n    \"description\": \"Given an array of integers, find the minimum number of operations (insertions or deletions) required to transform it into a sorted array.\",\n    \"approaches\": [\n        \"B..."}
+{"time":"2025-11-18T23:14:56.901479387+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":1334,"preview":"Sure, here is the C++17 code for LeetCode problem \"Find Zombie Sessions\". \n\n```cpp\n#include <bits/stdc++.h>\nusing namespace std;\n\nclass Solution {\npublic:\n    vector<vector<int>> findZombies(vector<ve..."}
+{"time":"2025-11-18T23:14:56.901801895+05:30","level":"DEBUG","msg":"processJobAttempt done","id":3673,"elapsed_ms":389803}
+{"time":"2025-11-18T23:14:56.901967744+05:30","level":"INFO","msg":"process success","id":3673,"worker":1,"elapsed_ms":389804}
+{"time":"2025-11-18T23:14:56.902009865+05:30","level":"INFO","msg":"worker received job","worker_id":1,"problem_id":3672}
+{"time":"2025-11-18T23:14:56.902036224+05:30","level":"INFO","msg":"process start (with retries)","id":3672,"worker":1}
+{"time":"2025-11-18T23:14:56.902060552+05:30","level":"INFO","msg":"attempt","id":3672,"attempt":1}
+{"time":"2025-11-18T23:14:56.902085996+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3672,"worker":1}
+{"time":"2025-11-18T23:14:56.902449741+05:30","level":"INFO","msg":"wrote file","id":3673,"file":"notes.md","bytes":1317}
+{"time":"2025-11-18T23:14:56.902667454+05:30","level":"INFO","msg":"wrote file","id":3673,"file":"solution.cpp","bytes":1105}
+{"time":"2025-11-18T23:18:12.358178637+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":812,"preview":"#include <bits/stdc++.h>\nusing namespace std;\n\nclass Solution {\npublic:\n    vector<string> findRestaurant(vector<string>& list1, vector<string>& list2) {\n        unordered_map<string, int> map;\n      ..."}
+{"time":"2025-11-18T23:18:12.358431702+05:30","level":"DEBUG","msg":"processJobAttempt done","id":3682,"elapsed_ms":585260}
+{"time":"2025-11-18T23:18:12.358872645+05:30","level":"INFO","msg":"process success","id":3682,"worker":0,"elapsed_ms":585261}
+{"time":"2025-11-18T23:18:12.358926487+05:30","level":"INFO","msg":"worker received job","worker_id":0,"problem_id":3667}
+{"time":"2025-11-18T23:18:12.35895287+05:30","level":"INFO","msg":"process start (with retries)","id":3667,"worker":0}
+{"time":"2025-11-18T23:18:12.358988547+05:30","level":"INFO","msg":"attempt","id":3667,"attempt":1}
+{"time":"2025-11-18T23:18:12.359007779+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3667,"worker":0}
+{"time":"2025-11-18T23:18:12.359333886+05:30","level":"INFO","msg":"wrote file","id":3682,"file":"notes.md","bytes":1444}
+{"time":"2025-11-18T23:18:12.359503299+05:30","level":"INFO","msg":"wrote file","id":3682,"file":"solution.cpp","bytes":796}
+{"time":"2025-11-18T23:18:21.295416717+05:30","level":"DEBUG","msg":"collected response","model":"mistral:7b-instruct-q4_K_M","len":1573,"preview":"{\n  \"description\": \"Given an array of integers representing the weights and frequencies of items in a bag, find the sum of weighted modes in non-overlapping subarrays.\",\n  \"approaches\": [\n    \"Brute f..."}
+{"time":"2025-11-18T23:19:29.707633308+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":506,"preview":"I'm sorry for any confusion, but there seems to be some misunderstanding here. The problem you mentioned \"Sum of Weighted Modes in Subarrays\" is not a common or well-known problem in competitive progr..."}
+{"time":"2025-11-18T23:19:29.70774585+05:30","level":"WARN","msg":"attempt failed","id":3672,"attempt":1,"error":"code validation failed"}
+{"time":"2025-11-18T23:19:29.708299637+05:30","level":"INFO","msg":"wrote file","id":3672,"file":"notes.md","bytes":1593}
+{"time":"2025-11-18T23:19:29.708342297+05:30","level":"DEBUG","msg":"skipping empty file","id":3672,"file":"solution.cpp"}
+{"time":"2025-11-18T23:19:29.708508192+05:30","level":"INFO","msg":"wrote partial notes.md","id":3672}
+{"time":"2025-11-18T23:19:29.708541431+05:30","level":"INFO","msg":"retry backoff","id":3672,"sleep_s":1}
+{"time":"2025-11-18T23:19:30.709543706+05:30","level":"INFO","msg":"attempt","id":3672,"attempt":2}
+{"time":"2025-11-18T23:19:30.709686956+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3672,"worker":1}
+{"time":"2025-11-18T23:20:21.695142592+05:30","level":"DEBUG","msg":"collected response","model":"mistral:7b-instruct-q4_K_M","len":1323,"preview":"```json\n{\n    \"description\": \"Given an array of integers, sort it in ascending order based on the absolute value of each element.\",\n    \"approaches\": [\n        \"Brute force: Iterate through the array ..."}
+{"time":"2025-11-18T23:21:16.42228619+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":1160,"preview":"I'm sorry for any confusion, but there seems to be some misunderstanding here. The problem you mentioned \"Sum of Weighted Modes in Subarrays\" is not a well-known or standard problem in competitive pro..."}
+{"time":"2025-11-18T23:21:16.422540366+05:30","level":"DEBUG","msg":"processJobAttempt done","id":3672,"elapsed_ms":105712}
+{"time":"2025-11-18T23:21:16.422695822+05:30","level":"INFO","msg":"process success","id":3672,"worker":1,"elapsed_ms":379520}
+{"time":"2025-11-18T23:21:16.422736112+05:30","level":"INFO","msg":"worker received job","worker_id":1,"problem_id":3686}
+{"time":"2025-11-18T23:21:16.422760549+05:30","level":"INFO","msg":"process start (with retries)","id":3686,"worker":1}
+{"time":"2025-11-18T23:21:16.422782675+05:30","level":"INFO","msg":"attempt","id":3686,"attempt":1}
+{"time":"2025-11-18T23:21:16.42280444+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3686,"worker":1}
+{"time":"2025-11-18T23:21:16.423073433+05:30","level":"INFO","msg":"wrote file","id":3672,"file":"notes.md","bytes":1593}
+{"time":"2025-11-18T23:21:16.42330934+05:30","level":"INFO","msg":"wrote file","id":3672,"file":"solution.cpp","bytes":1142}
+{"time":"2025-11-18T23:22:30.121859424+05:30","level":"DEBUG","msg":"collected response","model":"mistral:7b-instruct-q4_K_M","len":711,"preview":"{\n  \"description\": \"Given a string s, return the number of stable subsequences of s.\",\n  \"approaches\": [\n    \"Brute force: generate all substrings and check if they are stable.\",\n    \"Optimized idea: ..."}
+{"time":"2025-11-18T23:22:46.19909747+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":530,"preview":"#include <bits/stdc++.h>\nusing namespace std;\n\nclass Solution {\npublic:\n    vector<int> sortedSquares(vector<int>& nums) {\n        int n = nums.size();\n        vector<int> result(n);\n        int i = 0..."}
+{"time":"2025-11-18T23:22:46.199289827+05:30","level":"DEBUG","msg":"processJobAttempt done","id":3667,"elapsed_ms":273840}
+{"time":"2025-11-18T23:22:46.199452737+05:30","level":"INFO","msg":"process success","id":3667,"worker":0,"elapsed_ms":273840}
+{"time":"2025-11-18T23:22:46.199494754+05:30","level":"INFO","msg":"worker received job","worker_id":0,"problem_id":3657}
+{"time":"2025-11-18T23:22:46.199520512+05:30","level":"INFO","msg":"process start (with retries)","id":3657,"worker":0}
+{"time":"2025-11-18T23:22:46.199543713+05:30","level":"INFO","msg":"attempt","id":3657,"attempt":1}
+{"time":"2025-11-18T23:22:46.199566105+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3657,"worker":0}
+{"time":"2025-11-18T23:22:46.199787601+05:30","level":"INFO","msg":"wrote file","id":3667,"file":"notes.md","bytes":1329}
+{"time":"2025-11-18T23:22:46.199969656+05:30","level":"INFO","msg":"wrote file","id":3667,"file":"solution.cpp","bytes":514}
+{"time":"2025-11-18T23:24:48.433743363+05:30","level":"DEBUG","msg":"collected response","model":"mistral:7b-instruct-q4_K_M","len":1272,"preview":"```json\n{\n    \"description\": \"Identify customers who consistently purchase products from a store.\",\n    \"approaches\": [\n        \"Brute force: Iterate through all customers and check their purchase his..."}
+{"time":"2025-11-18T23:25:21.259997394+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":1143,"preview":"I'm sorry for any confusion, but I can't provide you with the solution to this problem as it seems like there is no specific information about what kind of \"stable subsequence\" we are looking for in t..."}
+{"time":"2025-11-18T23:25:21.260200372+05:30","level":"DEBUG","msg":"processJobAttempt done","id":3686,"elapsed_ms":244837}
+{"time":"2025-11-18T23:25:21.260377577+05:30","level":"INFO","msg":"process success","id":3686,"worker":1,"elapsed_ms":244837}
+{"time":"2025-11-18T23:25:21.260416402+05:30","level":"INFO","msg":"worker received job","worker_id":1,"problem_id":3677}
+{"time":"2025-11-18T23:25:21.260442422+05:30","level":"INFO","msg":"process start (with retries)","id":3677,"worker":1}
+{"time":"2025-11-18T23:25:21.260465696+05:30","level":"INFO","msg":"attempt","id":3677,"attempt":1}
+{"time":"2025-11-18T23:25:21.26048675+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3677,"worker":1}
+{"time":"2025-11-18T23:25:21.260732262+05:30","level":"INFO","msg":"wrote file","id":3686,"file":"notes.md","bytes":736}
+{"time":"2025-11-18T23:25:21.260943591+05:30","level":"INFO","msg":"wrote file","id":3686,"file":"solution.cpp","bytes":1133}
+{"time":"2025-11-18T23:26:34.14914824+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":565,"preview":"I'm sorry, but your question is not clear enough to generate the exact code you need. The problem statement \"Find Loyal Customers\" doesn't provide any specific method signature or code snippet for C++..."}
+{"time":"2025-11-18T23:26:34.149432537+05:30","level":"WARN","msg":"attempt failed","id":3657,"attempt":1,"error":"code validation failed"}
+{"time":"2025-11-18T23:26:34.14994754+05:30","level":"INFO","msg":"wrote file","id":3657,"file":"notes.md","bytes":1249}
+{"time":"2025-11-18T23:26:34.149992459+05:30","level":"DEBUG","msg":"skipping empty file","id":3657,"file":"solution.cpp"}
+{"time":"2025-11-18T23:26:34.150158431+05:30","level":"INFO","msg":"wrote partial notes.md","id":3657}
+{"time":"2025-11-18T23:26:34.150190545+05:30","level":"INFO","msg":"retry backoff","id":3657,"sleep_s":1}
+{"time":"2025-11-18T23:26:35.151166167+05:30","level":"INFO","msg":"attempt","id":3657,"attempt":2}
+{"time":"2025-11-18T23:26:35.151281481+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3657,"worker":0}
+{"time":"2025-11-18T23:27:11.11948494+05:30","level":"DEBUG","msg":"collected response","model":"mistral:7b-instruct-q4_K_M","len":1032,"preview":"```json\n{\n    \"description\": \"Count the number of binary palindromic numbers.\",\n    \"approaches\": [\n        \"Brute force: Check each number in the range for palindrome property.\",\n        \"Optimized i..."}
+{"time":"2025-11-18T23:27:16.590700611+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":420,"preview":"I'm sorry, but the problem statement you provided doesn't seem to be related to any known LeetCode problem or C++ programming task. Could you please provide more details about the specific problem you..."}
+{"time":"2025-11-18T23:27:16.590950734+05:30","level":"WARN","msg":"attempt failed","id":3657,"attempt":2,"error":"code validation failed"}
+{"time":"2025-11-18T23:27:16.591384451+05:30","level":"INFO","msg":"wrote file","id":3657,"file":"notes.md","bytes":1249}
+{"time":"2025-11-18T23:27:16.591422642+05:30","level":"DEBUG","msg":"skipping empty file","id":3657,"file":"solution.cpp"}
+{"time":"2025-11-18T23:27:16.591628082+05:30","level":"INFO","msg":"wrote partial notes.md","id":3657}
+{"time":"2025-11-18T23:27:16.591662863+05:30","level":"INFO","msg":"retry backoff","id":3657,"sleep_s":2}
+{"time":"2025-11-18T23:27:18.592237335+05:30","level":"INFO","msg":"attempt","id":3657,"attempt":3}
+{"time":"2025-11-18T23:27:18.592306727+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3657,"worker":0}
+{"time":"2025-11-18T23:28:51.740336735+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":1242,"preview":"Sure, here is a simple C++17 solution for the problem \"Count Binary Palindromic Numbers\". This code counts all binary palindromes from 0 to n.\n\n```cpp\n#include <bits/stdc++.h>\nusing namespace std;\n\ncl..."}
+{"time":"2025-11-18T23:28:51.74061309+05:30","level":"DEBUG","msg":"processJobAttempt done","id":3677,"elapsed_ms":210480}
+{"time":"2025-11-18T23:28:51.740732707+05:30","level":"INFO","msg":"process success","id":3677,"worker":1,"elapsed_ms":210480}
+{"time":"2025-11-18T23:28:51.740762622+05:30","level":"INFO","msg":"worker received job","worker_id":1,"problem_id":3662}
+{"time":"2025-11-18T23:28:51.740778528+05:30","level":"INFO","msg":"process start (with retries)","id":3662,"worker":1}
+{"time":"2025-11-18T23:28:51.740793403+05:30","level":"INFO","msg":"attempt","id":3662,"attempt":1}
+{"time":"2025-11-18T23:28:51.740808117+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3662,"worker":1}
+{"time":"2025-11-18T23:28:51.741124488+05:30","level":"INFO","msg":"wrote file","id":3677,"file":"notes.md","bytes":1028}
+{"time":"2025-11-18T23:28:51.741320437+05:30","level":"INFO","msg":"wrote file","id":3677,"file":"solution.cpp","bytes":1159}
+{"time":"2025-11-18T23:29:21.62309052+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":222,"preview":"I'm sorry, but the problem statement you provided is not clear and does not provide any information about the method signature or the code to be written for LeetCode. Please provide more details so I ..."}
+{"time":"2025-11-18T23:29:21.623284076+05:30","level":"WARN","msg":"attempt failed","id":3657,"attempt":3,"error":"code validation failed"}
+{"time":"2025-11-18T23:29:21.623506735+05:30","level":"DEBUG","msg":"skipping empty file","id":3657,"file":"solution.cpp"}
+{"time":"2025-11-18T23:29:21.623803893+05:30","level":"INFO","msg":"wrote file","id":3657,"file":"notes.md","bytes":1249}
+{"time":"2025-11-18T23:29:21.62405128+05:30","level":"INFO","msg":"wrote partial notes.md","id":3657}
+{"time":"2025-11-18T23:29:21.624304088+05:30","level":"INFO","msg":"recorded failure","id":3657}
+{"time":"2025-11-18T23:29:21.624340094+05:30","level":"ERROR","msg":"all attempts failed","id":3657,"error":"code validation failed"}
+{"time":"2025-11-18T23:29:21.624379073+05:30","level":"INFO","msg":"worker received job","worker_id":0,"problem_id":3683}
+{"time":"2025-11-18T23:29:21.624404474+05:30","level":"INFO","msg":"process start (with retries)","id":3683,"worker":0}
+{"time":"2025-11-18T23:29:21.624398773+05:30","level":"ERROR","msg":"job failed","id":3657,"error":"all attempts failed: code validation failed"}
+{"time":"2025-11-18T23:29:21.624437224+05:30","level":"INFO","msg":"attempt","id":3683,"attempt":1}
+{"time":"2025-11-18T23:29:21.624502555+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3683,"worker":0}
+{"time":"2025-11-18T23:30:58.59578038+05:30","level":"DEBUG","msg":"collected response","model":"mistral:7b-instruct-q4_K_M","len":2222,"preview":"{\n    \"description\": \"Given a string of characters and a frequency array, filter the characters based on their frequencies.\",\n    \"approaches\": [\n        \"Brute force: Iterate through each character i..."}
+{"time":"2025-11-18T23:32:40.970406501+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":452,"preview":"#include <bits/stdc++.h>\nusing namespace std;\n\nclass Solution {\npublic:\n    string filter(string s, vector<int>& nums) {\n        unordered_map<char, int> freq;\n        for (auto c : s) {\n            f..."}
+{"time":"2025-11-18T23:32:40.970540708+05:30","level":"DEBUG","msg":"processJobAttempt done","id":3662,"elapsed_ms":229229}
+{"time":"2025-11-18T23:32:40.970708583+05:30","level":"INFO","msg":"process success","id":3662,"worker":1,"elapsed_ms":229229}
+{"time":"2025-11-18T23:32:40.97074525+05:30","level":"INFO","msg":"worker received job","worker_id":1,"problem_id":3678}
+{"time":"2025-11-18T23:32:40.970769469+05:30","level":"INFO","msg":"process start (with retries)","id":3678,"worker":1}
+{"time":"2025-11-18T23:32:40.970791765+05:30","level":"INFO","msg":"attempt","id":3678,"attempt":1}
+{"time":"2025-11-18T23:32:40.970813077+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3678,"worker":1}
+{"time":"2025-11-18T23:32:40.971108988+05:30","level":"INFO","msg":"wrote file","id":3662,"file":"notes.md","bytes":2197}
+{"time":"2025-11-18T23:32:40.971329819+05:30","level":"INFO","msg":"wrote file","id":3662,"file":"solution.cpp","bytes":436}
+{"time":"2025-11-18T23:32:48.506337773+05:30","level":"DEBUG","msg":"collected response","model":"mistral:7b-instruct-q4_K_M","len":943,"preview":"{\n    \"description\": \"Given a list of tasks with their respective deadlines, find the earliest possible time to finish all tasks.\",\n    \"approaches\": [\n        \"Brute force: Sort tasks by deadline and..."}
+{"time":"2025-11-18T23:33:26.583779877+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":194,"preview":"I'm sorry for any confusion, but it seems there is no specific problem or method signature mentioned in your question related to LeetCode. Please provide more details so I can assist you better."}
+{"time":"2025-11-18T23:33:26.583988919+05:30","level":"WARN","msg":"attempt failed","id":3683,"attempt":1,"error":"code validation failed"}
+{"time":"2025-11-18T23:33:26.584461273+05:30","level":"INFO","msg":"wrote file","id":3683,"file":"notes.md","bytes":951}
+{"time":"2025-11-18T23:33:26.584505225+05:30","level":"DEBUG","msg":"skipping empty file","id":3683,"file":"solution.cpp"}
+{"time":"2025-11-18T23:33:26.584666159+05:30","level":"INFO","msg":"wrote partial notes.md","id":3683}
+{"time":"2025-11-18T23:33:26.584698652+05:30","level":"INFO","msg":"retry backoff","id":3683,"sleep_s":1}
+{"time":"2025-11-18T23:33:27.585562147+05:30","level":"INFO","msg":"attempt","id":3683,"attempt":2}
+{"time":"2025-11-18T23:33:27.58565633+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3683,"worker":0}
+{"time":"2025-11-18T23:35:05.044294353+05:30","level":"DEBUG","msg":"collected response","model":"mistral:7b-instruct-q4_K_M","len":961,"preview":"```json\n{\n    \"description\": \"Given an array of positive integers, find the smallest positive integer that is greater than the average of the given array.\",\n    \"approaches\": [\n        \"Brute force: I..."}
+{"time":"2025-11-18T23:36:08.576162799+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":1289,"preview":"Sure, I can help you with that. Here is an example of how you might solve this problem in C++17. This code assumes that we have a list of pairs where each pair contains the deadline and the time it ta..."}
+{"time":"2025-11-18T23:36:08.576475323+05:30","level":"DEBUG","msg":"processJobAttempt done","id":3683,"elapsed_ms":160990}
+{"time":"2025-11-18T23:36:08.576634466+05:30","level":"INFO","msg":"process success","id":3683,"worker":0,"elapsed_ms":406952}
+{"time":"2025-11-18T23:36:08.576678615+05:30","level":"INFO","msg":"worker received job","worker_id":0,"problem_id":3668}
+{"time":"2025-11-18T23:36:08.576703694+05:30","level":"INFO","msg":"process start (with retries)","id":3668,"worker":0}
+{"time":"2025-11-18T23:36:08.576723949+05:30","level":"INFO","msg":"attempt","id":3668,"attempt":1}
+{"time":"2025-11-18T23:36:08.576744945+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3668,"worker":0}
+{"time":"2025-11-18T23:36:08.576994498+05:30","level":"INFO","msg":"wrote file","id":3683,"file":"notes.md","bytes":951}
+{"time":"2025-11-18T23:36:08.577240849+05:30","level":"INFO","msg":"wrote file","id":3683,"file":"solution.cpp","bytes":1263}
+{"time":"2025-11-18T23:37:59.194145831+05:30","level":"DEBUG","msg":"collected response","model":"mistral:7b-instruct-q4_K_M","len":734,"preview":"```json\n{\n    \"description\": \"Given a list of numbers and their corresponding positions, restore the original finishing order of the numbers.\",\n    \"approaches\": [\n        \"Brute force: Sort the list ..."}
+{"time":"2025-11-18T23:38:41.233819571+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":906,"preview":"Sure, here's a simple C++17 solution for this problem using `std::sort` and `std::accumulate` from the standard library:\n\n```cpp\n#include <bits/stdc++.h>\nusing namespace std;\n\nclass Solution {\npublic:..."}
+{"time":"2025-11-18T23:38:41.234147161+05:30","level":"DEBUG","msg":"processJobAttempt done","id":3678,"elapsed_ms":360263}
+{"time":"2025-11-18T23:38:41.23431197+05:30","level":"INFO","msg":"process success","id":3678,"worker":1,"elapsed_ms":360263}
+{"time":"2025-11-18T23:38:41.234361488+05:30","level":"INFO","msg":"worker received job","worker_id":1,"problem_id":3656}
+{"time":"2025-11-18T23:38:41.234391376+05:30","level":"INFO","msg":"process start (with retries)","id":3656,"worker":1}
+{"time":"2025-11-18T23:38:41.234414592+05:30","level":"INFO","msg":"attempt","id":3656,"attempt":1}
+{"time":"2025-11-18T23:38:41.234434774+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3656,"worker":1}
+{"time":"2025-11-18T23:38:41.235003821+05:30","level":"INFO","msg":"wrote file","id":3678,"file":"notes.md","bytes":970}
+{"time":"2025-11-18T23:38:41.235218465+05:30","level":"INFO","msg":"wrote file","id":3678,"file":"solution.cpp","bytes":896}
+{"time":"2025-11-18T23:40:19.035892124+05:30","level":"DEBUG","msg":"collected response","model":"mistral:7b-instruct-q4_K_M","len":863,"preview":"{\n    \"description\": \"Given an array of integers representing edges in a simple graph, determine if the graph exists.\",\n    \"approaches\": [\n        \"Brute force: Check all possible combinations of edg..."}
+{"time":"2025-11-18T23:40:23.859518889+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":595,"preview":"#include <bits/stdc++.h>\nusing namespace std;\n\nclass Solution {\npublic:\n    vector<int> arrayRankTransform(vector<int>& arr) {\n        if (arr.empty()) return {};\n        \n        auto sorted_arr = ar..."}
+{"time":"2025-11-18T23:40:23.859695744+05:30","level":"DEBUG","msg":"processJobAttempt done","id":3668,"elapsed_ms":255282}
+{"time":"2025-11-18T23:40:23.85982844+05:30","level":"INFO","msg":"process success","id":3668,"worker":0,"elapsed_ms":255283}
+{"time":"2025-11-18T23:40:23.859862915+05:30","level":"INFO","msg":"worker received job","worker_id":0,"problem_id":3676}
+{"time":"2025-11-18T23:40:23.859880165+05:30","level":"INFO","msg":"process start (with retries)","id":3676,"worker":0}
+{"time":"2025-11-18T23:40:23.859894972+05:30","level":"INFO","msg":"attempt","id":3676,"attempt":1}
+{"time":"2025-11-18T23:40:23.859927176+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3676,"worker":0}
+{"time":"2025-11-18T23:40:23.860220772+05:30","level":"INFO","msg":"wrote file","id":3668,"file":"solution.cpp","bytes":563}
+{"time":"2025-11-18T23:40:23.86040264+05:30","level":"INFO","msg":"wrote file","id":3668,"file":"notes.md","bytes":721}
+{"time":"2025-11-18T23:42:01.913638798+05:30","level":"DEBUG","msg":"collected response","model":"mistral:7b-instruct-q4_K_M","len":870,"preview":"```json\n{\n    \"description\": \"Given an array of integers representing the number of items in each bowl, count the number of subarrays that can be formed.\",\n    \"approaches\": [\n        \"Brute force: It..."}
+{"time":"2025-11-18T23:42:50.565403571+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":1279,"preview":"I'm sorry for any confusion, but I need more specific details about the problem you are trying to solve on LeetCode. The context summary you provided is quite vague and doesn't provide enough informat..."}
+{"time":"2025-11-18T23:42:50.565635632+05:30","level":"DEBUG","msg":"processJobAttempt done","id":3656,"elapsed_ms":249331}
+{"time":"2025-11-18T23:42:50.565788639+05:30","level":"INFO","msg":"process success","id":3656,"worker":1,"elapsed_ms":249331}
+{"time":"2025-11-18T23:42:50.565824839+05:30","level":"INFO","msg":"worker received job","worker_id":1,"problem_id":3686}
+{"time":"2025-11-18T23:42:50.565847482+05:30","level":"INFO","msg":"process start (with retries)","id":3686,"worker":1}
+{"time":"2025-11-18T23:42:50.565866395+05:30","level":"INFO","msg":"attempt","id":3686,"attempt":1}
+{"time":"2025-11-18T23:42:50.565884336+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3686,"worker":1}
+{"time":"2025-11-18T23:42:50.565906054+05:30","level":"DEBUG","msg":"processJobAttempt done","id":3686,"elapsed_ms":0}
+{"time":"2025-11-18T23:42:50.565969988+05:30","level":"INFO","msg":"process success","id":3686,"worker":1,"elapsed_ms":0}
+{"time":"2025-11-18T23:42:50.565994213+05:30","level":"INFO","msg":"worker received job","worker_id":1,"problem_id":3657}
+{"time":"2025-11-18T23:42:50.566012935+05:30","level":"INFO","msg":"process start (with retries)","id":3657,"worker":1}
+{"time":"2025-11-18T23:42:50.566030607+05:30","level":"INFO","msg":"attempt","id":3657,"attempt":1}
+{"time":"2025-11-18T23:42:50.566051749+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3657,"worker":1}
+{"time":"2025-11-18T23:42:50.566158374+05:30","level":"INFO","msg":"wrote file","id":3656,"file":"notes.md","bytes":887}
+{"time":"2025-11-18T23:42:50.56636937+05:30","level":"INFO","msg":"wrote file","id":3656,"file":"solution.cpp","bytes":1160}
+{"time":"2025-11-18T23:42:50.566632335+05:30","level":"INFO","msg":"wrote file","id":3686,"file":"notes.md","bytes":736}
+{"time":"2025-11-18T23:42:50.566843724+05:30","level":"INFO","msg":"wrote file","id":3686,"file":"solution.cpp","bytes":1133}
+{"time":"2025-11-18T23:44:50.212885193+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":1196,"preview":"Here is a C++17 solution for LeetCode problem \"Count Bowl Subarrays\":\n\n```cpp\n#include <bits/stdc++.h>\nusing namespace std;\n\nclass Solution {\npublic:\n    long long countSubarrays(vector<int>& nums) {\n..."}
+{"time":"2025-11-18T23:44:50.21314135+05:30","level":"DEBUG","msg":"processJobAttempt done","id":3676,"elapsed_ms":266353}
+{"time":"2025-11-18T23:44:50.213284721+05:30","level":"INFO","msg":"process success","id":3676,"worker":0,"elapsed_ms":266353}
+{"time":"2025-11-18T23:44:50.21332579+05:30","level":"INFO","msg":"worker received job","worker_id":0,"problem_id":3677}
+{"time":"2025-11-18T23:44:50.213344426+05:30","level":"INFO","msg":"process start (with retries)","id":3677,"worker":0}
+{"time":"2025-11-18T23:44:50.213359143+05:30","level":"INFO","msg":"attempt","id":3677,"attempt":1}
+{"time":"2025-11-18T23:44:50.213373671+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3677,"worker":0}
+{"time":"2025-11-18T23:44:50.21340432+05:30","level":"DEBUG","msg":"processJobAttempt done","id":3677,"elapsed_ms":0}
+{"time":"2025-11-18T23:44:50.213494298+05:30","level":"INFO","msg":"process success","id":3677,"worker":0,"elapsed_ms":0}
+{"time":"2025-11-18T23:44:50.213525653+05:30","level":"INFO","msg":"worker received job","worker_id":0,"problem_id":3645}
+{"time":"2025-11-18T23:44:50.213548725+05:30","level":"INFO","msg":"process start (with retries)","id":3645,"worker":0}
+{"time":"2025-11-18T23:44:50.213571716+05:30","level":"INFO","msg":"attempt","id":3645,"attempt":1}
+{"time":"2025-11-18T23:44:50.213595302+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3645,"worker":0}
+{"time":"2025-11-18T23:44:50.213661415+05:30","level":"INFO","msg":"wrote file","id":3676,"file":"notes.md","bytes":854}
+{"time":"2025-11-18T23:44:50.213841814+05:30","level":"INFO","msg":"wrote file","id":3676,"file":"solution.cpp","bytes":1134}
+{"time":"2025-11-18T23:44:50.21408299+05:30","level":"INFO","msg":"wrote file","id":3677,"file":"notes.md","bytes":1028}
+{"time":"2025-11-18T23:44:50.214312348+05:30","level":"INFO","msg":"wrote file","id":3677,"file":"solution.cpp","bytes":1159}
+{"time":"2025-11-18T23:45:39.612939837+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":298,"preview":"I'm sorry, but the problem statement is not clear enough to generate valid C++17 code for LeetCode. The context of \"Identify customers who consistently purchase products from a store\" and the details ..."}
+{"time":"2025-11-18T23:45:39.613086428+05:30","level":"WARN","msg":"attempt failed","id":3657,"attempt":1,"error":"code validation failed"}
+{"time":"2025-11-18T23:45:39.613346708+05:30","level":"DEBUG","msg":"skipping empty file","id":3657,"file":"solution.cpp"}
+{"time":"2025-11-18T23:45:39.613697332+05:30","level":"INFO","msg":"wrote file","id":3657,"file":"notes.md","bytes":1249}
+{"time":"2025-11-18T23:45:39.613925143+05:30","level":"INFO","msg":"wrote partial notes.md","id":3657}
+{"time":"2025-11-18T23:45:39.61396188+05:30","level":"INFO","msg":"retry backoff","id":3657,"sleep_s":1}
+{"time":"2025-11-18T23:45:40.614322208+05:30","level":"INFO","msg":"attempt","id":3657,"attempt":2}
+{"time":"2025-11-18T23:45:40.614430422+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3657,"worker":1}
+{"time":"2025-11-18T23:46:26.468351996+05:30","level":"DEBUG","msg":"collected response","model":"mistral:7b-instruct-q4_K_M","len":869,"preview":"```json\n{\n    \"description\": \"Given a list of n integers representing the activation cost of each machine, find the optimal order of activation that maximizes the total sum of activation costs.\",\n    ..."}
+{"time":"2025-11-18T23:46:41.23504032+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":702,"preview":"I'm sorry, but your question is not clear enough to provide the correct code. The context you provided about \"Identify customers who consistently purchase products from a store\" seems to be related to..."}
+{"time":"2025-11-18T23:46:41.235241869+05:30","level":"WARN","msg":"attempt failed","id":3657,"attempt":2,"error":"code validation failed"}
+{"time":"2025-11-18T23:46:41.235653108+05:30","level":"INFO","msg":"wrote file","id":3657,"file":"notes.md","bytes":1249}
+{"time":"2025-11-18T23:46:41.235690625+05:30","level":"DEBUG","msg":"skipping empty file","id":3657,"file":"solution.cpp"}
+{"time":"2025-11-18T23:46:41.23589034+05:30","level":"INFO","msg":"wrote partial notes.md","id":3657}
+{"time":"2025-11-18T23:46:41.235926599+05:30","level":"INFO","msg":"retry backoff","id":3657,"sleep_s":2}
+{"time":"2025-11-18T23:46:43.236243297+05:30","level":"INFO","msg":"attempt","id":3657,"attempt":3}
+{"time":"2025-11-18T23:46:43.236326524+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3657,"worker":1}
+{"time":"2025-11-18T23:47:31.890529721+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":385,"preview":"```cpp\n#include <bits/stdc++.h>\nusing namespace std;\n\nclass Solution {\npublic:\n    int maximumTotal(vector<int>& nums) {\n        int n = nums.size();\n        if (n == 0) return 0;\n        vector<int> ..."}
+{"time":"2025-11-18T23:47:31.890731743+05:30","level":"DEBUG","msg":"processJobAttempt done","id":3645,"elapsed_ms":161677}
+{"time":"2025-11-18T23:47:31.890889647+05:30","level":"INFO","msg":"process success","id":3645,"worker":0,"elapsed_ms":161677}
+{"time":"2025-11-18T23:47:31.890919781+05:30","level":"INFO","msg":"worker received job","worker_id":0,"problem_id":3634}
+{"time":"2025-11-18T23:47:31.890941258+05:30","level":"INFO","msg":"process start (with retries)","id":3634,"worker":0}
+{"time":"2025-11-18T23:47:31.890958755+05:30","level":"INFO","msg":"attempt","id":3634,"attempt":1}
+{"time":"2025-11-18T23:47:31.890973261+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3634,"worker":0}
+{"time":"2025-11-18T23:47:31.891216002+05:30","level":"INFO","msg":"wrote file","id":3645,"file":"notes.md","bytes":876}
+{"time":"2025-11-18T23:47:31.891398397+05:30","level":"INFO","msg":"wrote file","id":3645,"file":"solution.cpp","bytes":374}
+{"time":"2025-11-18T23:49:02.516156505+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":574,"preview":"I'm sorry, but the problem description you provided is not clear enough to generate valid C++17 code for LeetCode. It seems like it might be related to some kind of data analysis or machine learning t..."}
+{"time":"2025-11-18T23:49:02.516386501+05:30","level":"WARN","msg":"attempt failed","id":3657,"attempt":3,"error":"code validation failed"}
+{"time":"2025-11-18T23:49:02.516886684+05:30","level":"INFO","msg":"wrote file","id":3657,"file":"notes.md","bytes":1249}
+{"time":"2025-11-18T23:49:02.516929254+05:30","level":"DEBUG","msg":"skipping empty file","id":3657,"file":"solution.cpp"}
+{"time":"2025-11-18T23:49:02.517143119+05:30","level":"INFO","msg":"wrote partial notes.md","id":3657}
+{"time":"2025-11-18T23:49:02.517486652+05:30","level":"INFO","msg":"recorded failure","id":3657}
+{"time":"2025-11-18T23:49:02.517524021+05:30","level":"ERROR","msg":"all attempts failed","id":3657,"error":"code validation failed"}
+{"time":"2025-11-18T23:49:02.51755991+05:30","level":"INFO","msg":"worker received job","worker_id":1,"problem_id":3640}
+{"time":"2025-11-18T23:49:02.517586985+05:30","level":"INFO","msg":"process start (with retries)","id":3640,"worker":1}
+{"time":"2025-11-18T23:49:02.517608591+05:30","level":"INFO","msg":"attempt","id":3640,"attempt":1}
+{"time":"2025-11-18T23:49:02.51763144+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3640,"worker":1}
+{"time":"2025-11-18T23:49:02.517673729+05:30","level":"ERROR","msg":"job failed","id":3657,"error":"all attempts failed: code validation failed"}
+{"time":"2025-11-18T23:49:41.52162445+05:30","level":"DEBUG","msg":"collected response","model":"mistral:7b-instruct-q4_K_M","len":1388,"preview":"{\n    \"description\": \"Given an array of integers, find the minimum number of operations (insertions or deletions) required to balance it.\",\n    \"approaches\": [\n        \"Brute force: Try all possible i..."}
+{"time":"2025-11-18T23:51:30.019793482+05:30","level":"DEBUG","msg":"collected response","model":"mistral:7b-instruct-q4_K_M","len":960,"preview":"```json\n{\n    \"description\": \"Given an array of integers, find the sum of all elements that are not equal to their previous element.\",\n    \"approaches\": [\n        \"Brute force: Iterate through the arr..."}
+{"time":"2025-11-18T23:52:10.2228149+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":974,"preview":"#include <bits/stdc++.h>\nusing namespace std;\n\nclass Solution {\npublic:\n    int minOperationsToBalance(vector<int>& nums) {\n        int n = nums.size();\n        vector<int> prefixSum(n + 1, 0);\n      ..."}
+{"time":"2025-11-18T23:52:10.223089298+05:30","level":"WARN","msg":"code unbalanced braces, applying auto-repair (id)","id":3634}
+{"time":"2025-11-18T23:52:10.223140834+05:30","level":"DEBUG","msg":"processJobAttempt done","id":3634,"elapsed_ms":278332}
+{"time":"2025-11-18T23:52:10.223319634+05:30","level":"INFO","msg":"process success","id":3634,"worker":0,"elapsed_ms":278332}
+{"time":"2025-11-18T23:52:10.223359584+05:30","level":"INFO","msg":"worker received job","worker_id":0,"problem_id":3636}
+{"time":"2025-11-18T23:52:10.223385224+05:30","level":"INFO","msg":"process start (with retries)","id":3636,"worker":0}
+{"time":"2025-11-18T23:52:10.22340816+05:30","level":"INFO","msg":"attempt","id":3636,"attempt":1}
+{"time":"2025-11-18T23:52:10.223430688+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3636,"worker":0}
+{"time":"2025-11-18T23:52:10.223689467+05:30","level":"INFO","msg":"wrote file","id":3634,"file":"notes.md","bytes":1359}
+{"time":"2025-11-18T23:52:10.223899313+05:30","level":"INFO","msg":"wrote file","id":3634,"file":"solution.cpp","bytes":740}
+{"time":"2025-11-18T23:54:38.807555926+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":786,"preview":"Sure, here is a simple solution for this problem in C++17:\n\n```cpp\n#include <bits/stdc++.h>\nusing namespace std;\n\nclass Solution {\npublic:\n    int findSpecialInteger(vector<int>& arr) {\n        int n ..."}
+{"time":"2025-11-18T23:54:38.807801859+05:30","level":"DEBUG","msg":"processJobAttempt done","id":3640,"elapsed_ms":336290}
+{"time":"2025-11-18T23:54:38.807976218+05:30","level":"INFO","msg":"process success","id":3640,"worker":1,"elapsed_ms":336290}
+{"time":"2025-11-18T23:54:38.808019304+05:30","level":"INFO","msg":"worker received job","worker_id":1,"problem_id":3638}
+{"time":"2025-11-18T23:54:38.808048653+05:30","level":"INFO","msg":"process start (with retries)","id":3638,"worker":1}
+{"time":"2025-11-18T23:54:38.808074562+05:30","level":"INFO","msg":"attempt","id":3638,"attempt":1}
+{"time":"2025-11-18T23:54:38.808097778+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3638,"worker":1}
+{"time":"2025-11-18T23:54:38.808375176+05:30","level":"INFO","msg":"wrote file","id":3640,"file":"solution.cpp","bytes":776}
+{"time":"2025-11-18T23:54:38.808597436+05:30","level":"INFO","msg":"wrote file","id":3640,"file":"notes.md","bytes":940}
+{"time":"2025-11-18T23:55:10.16469547+05:30","level":"DEBUG","msg":"collected response","model":"mistral:7b-instruct-q4_K_M","len":1733,"preview":"{\n\"description\": \"Given an array of integers representing the votes of n students in a school election, determine if there exists a subset of students whose votes would result in a threshold majority...."}
+{"time":"2025-11-18T23:56:55.214270356+05:30","level":"DEBUG","msg":"collected response","model":"mistral:7b-instruct-q4_K_M","len":994,"preview":"```json\n{\n    \"description\": \"Given a list of items with their respective weights and values, find the maximum possible shipment value that can be balanced in at most two boxes.\",\n    \"approaches\": [\n..."}
+{"time":"2025-11-18T23:57:43.690575353+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":1244,"preview":"```cpp\n#include <bits/stdc++.h>\nusing namespace std;\n\nclass Solution {\npublic:\n    vector<bool> checkIfPrerequisite(int numCourses, vector<vector<int>>& prerequisites, vector<vector<int>>& queries) {\n..."}
+{"time":"2025-11-18T23:57:43.690812629+05:30","level":"DEBUG","msg":"processJobAttempt done","id":3636,"elapsed_ms":333467}
+{"time":"2025-11-18T23:57:43.690937147+05:30","level":"INFO","msg":"process success","id":3636,"worker":0,"elapsed_ms":333467}
+{"time":"2025-11-18T23:57:43.690971077+05:30","level":"INFO","msg":"worker received job","worker_id":0,"problem_id":3679}
+{"time":"2025-11-18T23:57:43.69099196+05:30","level":"INFO","msg":"process start (with retries)","id":3679,"worker":0}
+{"time":"2025-11-18T23:57:43.691010619+05:30","level":"INFO","msg":"attempt","id":3679,"attempt":1}
+{"time":"2025-11-18T23:57:43.691028209+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3679,"worker":0}
+{"time":"2025-11-18T23:57:43.691308117+05:30","level":"INFO","msg":"wrote file","id":3636,"file":"notes.md","bytes":1776}
+{"time":"2025-11-18T23:57:43.691516106+05:30","level":"INFO","msg":"wrote file","id":3636,"file":"solution.cpp","bytes":1217}
+{"time":"2025-11-19T00:01:33.83069544+05:30","level":"DEBUG","msg":"collected response","model":"mistral:7b-instruct-q4_K_M","len":1802,"preview":"{\n  \"description\": \"Given an inventory of n discs with weights w1, w2, ..., wn where each disc can be picked up at most once and put down at any position on the stack. The goal is to find the minimum ..."}
+{"time":"2025-11-19T00:01:51.037147092+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":1700,"preview":"I'm sorry for any confusion, but it seems there is some misunderstanding. The problem statement \"Maximum Balanced Shipments\" does not seem to match with the typical problems on LeetCode or competitive..."}
+{"time":"2025-11-19T00:01:51.037363866+05:30","level":"DEBUG","msg":"processJobAttempt done","id":3638,"elapsed_ms":432229}
+{"time":"2025-11-19T00:01:51.037489305+05:30","level":"INFO","msg":"process success","id":3638,"worker":1,"elapsed_ms":432229}
+{"time":"2025-11-19T00:01:51.037519273+05:30","level":"INFO","msg":"worker received job","worker_id":1,"problem_id":3637}
+{"time":"2025-11-19T00:01:51.037539991+05:30","level":"INFO","msg":"process start (with retries)","id":3637,"worker":1}
+{"time":"2025-11-19T00:01:51.037560568+05:30","level":"INFO","msg":"attempt","id":3637,"attempt":1}
+{"time":"2025-11-19T00:01:51.037581281+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3637,"worker":1}
+{"time":"2025-11-19T00:01:51.037792528+05:30","level":"INFO","msg":"wrote file","id":3638,"file":"notes.md","bytes":984}
+{"time":"2025-11-19T00:01:51.037951057+05:30","level":"INFO","msg":"wrote file","id":3638,"file":"solution.cpp","bytes":1298}
+{"time":"2025-11-19T00:03:21.686598822+05:30","level":"DEBUG","msg":"collected response","model":"mistral:7b-instruct-q4_K_M","len":744,"preview":"```json\n{\n    \"description\": \"Given an array of integers, find the sum of all elements in it.\",\n    \"approaches\": [\n        \"Brute force: Iterate through each element and add it to a running total.\",\n..."}
+{"time":"2025-11-19T00:03:48.919957606+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":712,"preview":"#include <bits/stdc++.h>\nusing namespace std;\n\nclass Solution {\npublic:\n    int minDiscard(vector<int>& weights) {\n        unordered_map<int, int> count;\n        for (auto w : weights) \n            co..."}
+{"time":"2025-11-19T00:03:48.920171922+05:30","level":"DEBUG","msg":"processJobAttempt done","id":3679,"elapsed_ms":365229}
+{"time":"2025-11-19T00:03:48.920348401+05:30","level":"INFO","msg":"process success","id":3679,"worker":0,"elapsed_ms":365229}
+{"time":"2025-11-19T00:03:48.920391055+05:30","level":"INFO","msg":"worker received job","worker_id":0,"problem_id":3646}
+{"time":"2025-11-19T00:03:48.920410256+05:30","level":"INFO","msg":"process start (with retries)","id":3646,"worker":0}
+{"time":"2025-11-19T00:03:48.920424438+05:30","level":"INFO","msg":"attempt","id":3646,"attempt":1}
+{"time":"2025-11-19T00:03:48.920439324+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3646,"worker":0}
+{"time":"2025-11-19T00:03:48.920680222+05:30","level":"INFO","msg":"wrote file","id":3679,"file":"notes.md","bytes":1805}
+{"time":"2025-11-19T00:03:48.920862812+05:30","level":"INFO","msg":"wrote file","id":3679,"file":"solution.cpp","bytes":649}
+{"time":"2025-11-19T00:04:31.402218466+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":176,"preview":"#include <bits/stdc++.h>\nusing namespace std;\n\nclass Solution {\npublic:\n    int sumOfArray(vector<int>& nums) {\n        return accumulate(nums.begin(), nums.end(), 0);\n    }\n};"}
+{"time":"2025-11-19T00:04:31.402423933+05:30","level":"DEBUG","msg":"processJobAttempt done","id":3637,"elapsed_ms":160364}
+{"time":"2025-11-19T00:04:31.402564404+05:30","level":"INFO","msg":"process success","id":3637,"worker":1,"elapsed_ms":160365}
+{"time":"2025-11-19T00:04:31.402597714+05:30","level":"INFO","msg":"worker received job","worker_id":1,"problem_id":3644}
+{"time":"2025-11-19T00:04:31.402633799+05:30","level":"INFO","msg":"process start (with retries)","id":3644,"worker":1}
+{"time":"2025-11-19T00:04:31.402656617+05:30","level":"INFO","msg":"attempt","id":3644,"attempt":1}
+{"time":"2025-11-19T00:04:31.402676639+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3644,"worker":1}
+{"time":"2025-11-19T00:04:31.40292661+05:30","level":"INFO","msg":"wrote file","id":3637,"file":"notes.md","bytes":716}
+{"time":"2025-11-19T00:04:31.403122808+05:30","level":"INFO","msg":"wrote file","id":3637,"file":"solution.cpp","bytes":176}
+{"time":"2025-11-19T00:05:09.516373101+05:30","level":"DEBUG","msg":"collected response","model":"mistral:7b-instruct-q4_K_M","len":985,"preview":"{\n    \"description\": \"Given a positive integer n, find the next special palindrome number that is greater than or equal to n.\",\n    \"approaches\": [\n        \"Brute force: Check all numbers from n+1 onw..."}
+{"time":"2025-11-19T00:07:41.552498806+05:30","level":"DEBUG","msg":"collected response","model":"mistral:7b-instruct-q4_K_M","len":1310,"preview":"```json\n{\n    \"description\": \"Given an array of integers and a positive integer k, find the maximum value of k that can be obtained by sorting the array.\",\n    \"approaches\": [\n        \"Brute force: So..."}
+{"time":"2025-11-19T00:08:33.268340628+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":1439,"preview":"Sure, here's a simple C++17 solution for this problem. This code increments the given number and checks if it's a palindrome. If not, it continues to increment until it finds a palindrome. \n\n```C++\n#i..."}
+{"time":"2025-11-19T00:08:33.268693589+05:30","level":"WARN","msg":"code unbalanced braces, applying auto-repair (id)","id":3646}
+{"time":"2025-11-19T00:08:33.268760828+05:30","level":"DEBUG","msg":"processJobAttempt done","id":3646,"elapsed_ms":284348}
+{"time":"2025-11-19T00:08:33.268880183+05:30","level":"INFO","msg":"process success","id":3646,"worker":0,"elapsed_ms":284348}
+{"time":"2025-11-19T00:08:33.268911607+05:30","level":"INFO","msg":"worker received job","worker_id":0,"problem_id":3610}
+{"time":"2025-11-19T00:08:33.26893831+05:30","level":"INFO","msg":"process start (with retries)","id":3610,"worker":0}
+{"time":"2025-11-19T00:08:33.268961103+05:30","level":"INFO","msg":"attempt","id":3610,"attempt":1}
+{"time":"2025-11-19T00:08:33.268985173+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3610,"worker":0}
+{"time":"2025-11-19T00:08:33.269319894+05:30","level":"INFO","msg":"wrote file","id":3646,"file":"notes.md","bytes":964}
+{"time":"2025-11-19T00:08:33.269537427+05:30","level":"INFO","msg":"wrote file","id":3646,"file":"solution.cpp","bytes":1406}
+{"time":"2025-11-19T00:11:10.657872774+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":900,"preview":"#include <bits/stdc++.h>\nusing namespace std;\n\nclass Solution {\npublic:\n    int largestPermutation(int k, vector<int>& arr) {\n        int n = arr.size();\n        unordered_map<int, int> m; // map to s..."}
+{"time":"2025-11-19T00:11:10.658111327+05:30","level":"DEBUG","msg":"processJobAttempt done","id":3644,"elapsed_ms":399255}
+{"time":"2025-11-19T00:11:10.658281899+05:30","level":"INFO","msg":"process success","id":3644,"worker":1,"elapsed_ms":399255}
+{"time":"2025-11-19T00:11:10.658341311+05:30","level":"INFO","msg":"worker received job","worker_id":1,"problem_id":3628}
+{"time":"2025-11-19T00:11:10.658365263+05:30","level":"INFO","msg":"process start (with retries)","id":3628,"worker":1}
+{"time":"2025-11-19T00:11:10.658387057+05:30","level":"INFO","msg":"attempt","id":3628,"attempt":1}
+{"time":"2025-11-19T00:11:10.658408638+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3628,"worker":1}
+{"time":"2025-11-19T00:11:10.658761313+05:30","level":"INFO","msg":"wrote file","id":3644,"file":"solution.cpp","bytes":594}
+{"time":"2025-11-19T00:11:10.658951343+05:30","level":"INFO","msg":"wrote file","id":3644,"file":"notes.md","bytes":1278}
+{"time":"2025-11-19T00:11:33.225368781+05:30","level":"DEBUG","msg":"collected response","model":"mistral:7b-instruct-q4_K_M","len":1756,"preview":"```json\n{\n    \"description\": \"Given an integer array nums and a target integer sum, find the minimum number of primes that add up to the target.\",\n    \"approaches\": [\n        \"Brute force: Check every..."}
+{"time":"2025-11-19T00:13:32.269381517+05:30","level":"DEBUG","msg":"collected response","model":"mistral:7b-instruct-q4_K_M","len":1181,"preview":"{\n\"description\": \"Given an array of integers, find the maximum number of subsequences that can be obtained by inserting a single element into the array.\",\n\"approaches\": [\n\"Brute force: Generate all po..."}
+{"time":"2025-11-19T00:14:31.893301773+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":1423,"preview":"Sure, I can help with that. Here's a simple C++17 solution for your problem using Sieve of Eratosthenes to generate prime numbers and then applying dynamic programming to find the minimum number of pr..."}
+{"time":"2025-11-19T00:14:31.893573652+05:30","level":"DEBUG","msg":"processJobAttempt done","id":3610,"elapsed_ms":358624}
+{"time":"2025-11-19T00:14:31.89369936+05:30","level":"INFO","msg":"process success","id":3610,"worker":0,"elapsed_ms":358624}
+{"time":"2025-11-19T00:14:31.893728287+05:30","level":"INFO","msg":"worker received job","worker_id":0,"problem_id":3669}
+{"time":"2025-11-19T00:14:31.893745587+05:30","level":"INFO","msg":"process start (with retries)","id":3669,"worker":0}
+{"time":"2025-11-19T00:14:31.893760615+05:30","level":"INFO","msg":"attempt","id":3669,"attempt":1}
+{"time":"2025-11-19T00:14:31.893774721+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3669,"worker":0}
+{"time":"2025-11-19T00:14:31.894005065+05:30","level":"INFO","msg":"wrote file","id":3610,"file":"notes.md","bytes":1737}
+{"time":"2025-11-19T00:14:31.89419762+05:30","level":"INFO","msg":"wrote file","id":3610,"file":"solution.cpp","bytes":1397}
+{"time":"2025-11-19T00:17:55.139150961+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":1215,"preview":"Sure, here is the C++17 code for LeetCode problem \"Maximum Number of Subsequences After One Insertion\". This problem can be solved by using a map to count the frequency of each number in the array. Th..."}
+{"time":"2025-11-19T00:17:55.139433162+05:30","level":"DEBUG","msg":"processJobAttempt done","id":3628,"elapsed_ms":404481}
+{"time":"2025-11-19T00:17:55.139624618+05:30","level":"INFO","msg":"process success","id":3628,"worker":1,"elapsed_ms":404481}
+{"time":"2025-11-19T00:17:55.139673356+05:30","level":"INFO","msg":"worker received job","worker_id":1,"problem_id":3648}
+{"time":"2025-11-19T00:17:55.139704098+05:30","level":"INFO","msg":"process start (with retries)","id":3648,"worker":1}
+{"time":"2025-11-19T00:17:55.13973406+05:30","level":"INFO","msg":"attempt","id":3648,"attempt":1}
+{"time":"2025-11-19T00:17:55.139759609+05:30","level":"DEBUG","msg":"processJobAttempt start","id":3648,"worker":1}
+{"time":"2025-11-19T00:17:55.140024173+05:30","level":"INFO","msg":"wrote file","id":3628,"file":"notes.md","bytes":1247}
+{"time":"2025-11-19T00:17:55.140174133+05:30","level":"INFO","msg":"wrote file","id":3628,"file":"solution.cpp","bytes":1201}
+{"time":"2025-11-19T00:17:59.705277916+05:30","level":"DEBUG","msg":"collected response","model":"mistral:7b-instruct-q4_K_M","len":2131,"preview":"{\n  \"description\": \"Given a list of integers representing the number of elements in each of k distinct groups, decompose them into k balanced subgroups such that the sum of the elements in each subgro..."}
+{"time":"2025-11-19T00:19:49.05763451+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":513,"preview":"#include <bits/stdc++.h>\nusing namespace std;\n\nclass Solution {\npublic:\n    vector<vector<int>> decompose(int n, int k) {\n        if (n < 0 || k < 1) return {};\n        \n        // Initialize the resu..."}
+{"time":"2025-11-19T00:19:49.057820962+05:30","level":"DEBUG","msg":"processJobAttempt done","id":3669,"elapsed_ms":317164}
+{"time":"2025-11-19T00:19:49.057983986+05:30","level":"INFO","msg":"process success","id":3669,"worker":0,"elapsed_ms":317164}
+{"time":"2025-11-19T00:19:49.058024937+05:30","level":"INFO","msg":"worker stopped","worker_id":0}
+{"time":"2025-11-19T00:19:49.058315643+05:30","level":"INFO","msg":"wrote file","id":3669,"file":"notes.md","bytes":2155}
+{"time":"2025-11-19T00:19:49.058504563+05:30","level":"INFO","msg":"wrote file","id":3669,"file":"solution.cpp","bytes":363}
+{"time":"2025-11-19T00:20:49.369427963+05:30","level":"DEBUG","msg":"collected response","model":"mistral:7b-instruct-q4_K_M","len":2364,"preview":"{\n    \"description\": \"Given a grid of n x n cells with some sensors placed on it, find the minimum number of additional sensors needed to cover all the cells.\",\n    \"approaches\": [\n        \"Brute forc..."}
+{"time":"2025-11-19T00:22:52.363768872+05:30","level":"DEBUG","msg":"collected response","model":"deepseek-coder:6.7b","len":1612,"preview":"I'm sorry for any confusion, but as an AI model developed by Deepseek, I don't have real-time access to LeetCode or other competitive programming platforms to provide you with specific solutions to pr..."}
+{"time":"2025-11-19T00:22:52.363884669+05:30","level":"WARN","msg":"code unbalanced braces, applying auto-repair (id)","id":3648}
+{"time":"2025-11-19T00:22:52.363930983+05:30","level":"DEBUG","msg":"processJobAttempt done","id":3648,"elapsed_ms":297224}
+{"time":"2025-11-19T00:22:52.364035883+05:30","level":"INFO","msg":"process success","id":3648,"worker":1,"elapsed_ms":297224}
+{"time":"2025-11-19T00:22:52.364060508+05:30","level":"INFO","msg":"worker stopped","worker_id":1}
+{"time":"2025-11-19T00:22:52.364326792+05:30","level":"INFO","msg":"wrote file","id":3648,"file":"notes.md","bytes":2313}
+{"time":"2025-11-19T00:22:52.364464739+05:30","level":"INFO","msg":"wrote file","id":3648,"file":"solution.cpp","bytes":1365}
+{"time":"2025-11-19T00:22:52.364502891+05:30","level":"INFO","msg":"pipeline completed"}

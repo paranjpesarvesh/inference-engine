@@ -1,0 +1,25 @@
+version: "3.9"
+
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    restart: unless-stopped
+    ports:
+      - "11434:11434"
+
+    environment:
+      - OLLAMA_KEEP_ALIVE=-1
+      - OLLAMA_MAX_LOADED_MODELS=2
+      - OLLAMA_NUM_THREAD=4
+      - OLLAMA_NUM_PARALLEL=1
+      - OLLAMA_CONTEXT_LENGTH=4096
+      - OLLAMA_REGISTRY=registry.ollama.ai
+      - OLLAMA_ORIGINS=https://registry.ollama.ai
+      - OLLAMA_HOST=0.0.0.0
+
+    volumes:
+      - ollama-data:/root/.ollama
+
+volumes:
+  ollama-data:

@@ -1,0 +1,234 @@
+[
+  {
+    "id": 3682,
+    "title": "Minimum Index Sum of Common Elements",
+    "slug": "minimum-index-sum-of-common-elements",
+    "difficulty": 2,
+    "paid_only": true,
+    "is_favor": false
+  },
+  {
+    "id": 3673,
+    "title": "Find Zombie Sessions",
+    "slug": "find-zombie-sessions",
+    "difficulty": 3,
+    "paid_only": false,
+    "is_favor": false
+  },
+  {
+    "id": 3672,
+    "title": "Sum of Weighted Modes in Subarrays",
+    "slug": "sum-of-weighted-modes-in-subarrays",
+    "difficulty": 2,
+    "paid_only": true,
+    "is_favor": false
+  },
+  {
+    "id": 3667,
+    "title": "Sort Array By Absolute Value",
+    "slug": "sort-array-by-absolute-value",
+    "difficulty": 1,
+    "paid_only": true,
+    "is_favor": false
+  },
+  {
+    "id": 3686,
+    "title": "Number of Stable Subsequences",
+    "slug": "number-of-stable-subsequences",
+    "difficulty": 3,
+    "paid_only": false,
+    "is_favor": false
+  },
+  {
+    "id": 3657,
+    "title": "Find Loyal Customers",
+    "slug": "find-loyal-customers",
+    "difficulty": 2,
+    "paid_only": false,
+    "is_favor": false
+  },
+  {
+    "id": 3677,
+    "title": "Count Binary Palindromic Numbers",
+    "slug": "count-binary-palindromic-numbers",
+    "difficulty": 3,
+    "paid_only": false,
+    "is_favor": false
+  },
+  {
+    "id": 3662,
+    "title": "Filter Characters by Frequency",
+    "slug": "filter-characters-by-frequency",
+    "difficulty": 1,
+    "paid_only": true,
+    "is_favor": false
+  },
+  {
+    "id": 3683,
+    "title": "Earliest Time to Finish One Task",
+    "slug": "earliest-time-to-finish-one-task",
+    "difficulty": 1,
+    "paid_only": false,
+    "is_favor": false
+  },
+  {
+    "id": 3678,
+    "title": "Smallest Absent Positive Greater Than Average",
+    "slug": "smallest-absent-positive-greater-than-average",
+    "difficulty": 1,
+    "paid_only": false,
+    "is_favor": false
+  },
+  {
+    "id": 3668,
+    "title": "Restore Finishing Order",
+    "slug": "restore-finishing-order",
+    "difficulty": 1,
+    "paid_only": false,
+    "is_favor": false
+  },
+  {
+    "id": 3656,
+    "title": "Determine if a Simple Graph Exists",
+    "slug": "determine-if-a-simple-graph-exists",
+    "difficulty": 2,
+    "paid_only": true,
+    "is_favor": false
+  },
+  {
+    "id": 3676,
+    "title": "Count Bowl Subarrays",
+    "slug": "count-bowl-subarrays",
+    "difficulty": 2,
+    "paid_only": false,
+    "is_favor": false
+  },
+  {
+    "id": 3686,
+    "title": "Number of Stable Subsequences",
+    "slug": "number-of-stable-subsequences",
+    "difficulty": 3,
+    "paid_only": false,
+    "is_favor": false
+  },
+  {
+    "id": 3657,
+    "title": "Find Loyal Customers",
+    "slug": "find-loyal-customers",
+    "difficulty": 2,
+    "paid_only": false,
+    "is_favor": false
+  },
+  {
+    "id": 3677,
+    "title": "Count Binary Palindromic Numbers",
+    "slug": "count-binary-palindromic-numbers",
+    "difficulty": 3,
+    "paid_only": false,
+    "is_favor": false
+  },
+  {
+    "id": 3645,
+    "title": "Maximum Total from Optimal Activation Order",
+    "slug": "maximum-total-from-optimal-activation-order",
+    "difficulty": 2,
+    "paid_only": false,
+    "is_favor": false
+  },
+  {
+    "id": 3634,
+    "title": "Minimum Removals to Balance Array",
+    "slug": "minimum-removals-to-balance-array",
+    "difficulty": 2,
+    "paid_only": false,
+    "is_favor": false
+  },
+  {
+    "id": 3640,
+    "title": "Trionic Array II",
+    "slug": "trionic-array-ii",
+    "difficulty": 3,
+    "paid_only": false,
+    "is_favor": false
+  },
+  {
+    "id": 3636,
+    "title": "Threshold Majority Queries",
+    "slug": "threshold-majority-queries",
+    "difficulty": 3,
+    "paid_only": false,
+    "is_favor": false
+  },
+  {
+    "id": 3638,
+    "title": "Maximum Balanced Shipments",
+    "slug": "maximum-balanced-shipments",
+    "difficulty": 2,
+    "paid_only": false,
+    "is_favor": false
+  },
+  {
+    "id": 3679,
+    "title": " Minimum Discards to Balance Inventory",
+    "slug": "minimum-discards-to-balance-inventory",
+    "difficulty": 2,
+    "paid_only": false,
+    "is_favor": false
+  },
+  {
+    "id": 3637,
+    "title": "Trionic Array I",
+    "slug": "trionic-array-i",
+    "difficulty": 1,
+    "paid_only": false,
+    "is_favor": false
+  },
+  {
+    "id": 3646,
+    "title": "Next Special Palindrome Number",
+    "slug": "next-special-palindrome-number",
+    "difficulty": 3,
+    "paid_only": false,
+    "is_favor": false
+  },
+  {
+    "id": 3644,
+    "title": "Maximum K to Sort a Permutation",
+    "slug": "maximum-k-to-sort-a-permutation",
+    "difficulty": 2,
+    "paid_only": false,
+    "is_favor": false
+  },
+  {
+    "id": 3610,
+    "title": "Minimum Number of Primes to Sum to Target",
+    "slug": "minimum-number-of-primes-to-sum-to-target",
+    "difficulty": 2,
+    "paid_only": true,
+    "is_favor": false
+  },
+  {
+    "id": 3628,
+    "title": "Maximum Number of Subsequences After One Inserting",
+    "slug": "maximum-number-of-subsequences-after-one-inserting",
+    "difficulty": 2,
+    "paid_only": false,
+    "is_favor": false
+  },
+  {
+    "id": 3669,
+    "title": "Balanced K-Factor Decomposition",
+    "slug": "balanced-k-factor-decomposition",
+    "difficulty": 2,
+    "paid_only": false,
+    "is_favor": false
+  },
+  {
+    "id": 3648,
+    "title": "Minimum Sensors to Cover Grid",
+    "slug": "minimum-sensors-to-cover-grid",
+    "difficulty": 2,
+    "paid_only": false,
+    "is_favor": false
+  }
+]
