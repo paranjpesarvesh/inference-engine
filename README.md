@@ -84,7 +84,7 @@ Ensures valid includes, balanced braces, and consistent formatting.
 
 On a CPU-only system with lightweight Ollama models:
 
-- 30 problems processed in 1 hour
+- 60 problems processed in 1 hour
 - Explanations: 100 percent correct
 - Incorrect C++ solutions: 5
 - Partial outputs: 1
@@ -117,6 +117,8 @@ Start Ollama:
 ```
 docker compose up -d
 ```
+
+Pull the models in the mounted volume
 
 Run the pipeline:
 ```
